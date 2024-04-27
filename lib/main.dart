@@ -13,17 +13,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // Hide debug banner
-      title: 'Flutter Demo', // Set app title
+      title: 'To do App', // Set app title
       theme: ThemeData(
         // Configure app theme
         colorScheme: ColorScheme.fromSwatch().copyWith(
-          primary: Color.fromARGB(255, 31, 150, 31), // Set primary color
+          primary: Color.fromARGB(255, 11, 178, 28), // Set primary color
         ),
         useMaterial3: true, // Enable Material 3 design elements
       ),
-   
+
       home: LoginScreen(),
-      
+
       routes: {
         '/login': (context) => LoginScreen(),
         '/tasks': (context) => TasksScreen(),

@@ -81,7 +81,8 @@ class _TasksScreenState extends State<TasksScreen> {
                 child: Text(
                   'www.linkedin.com.',
                   style: TextStyle(
-                    color: Colors.blue, // Style the link text color
+                    color: Color.fromARGB(
+                        255, 34, 9, 155), // Style the link text color
                     decoration: TextDecoration.underline, // Underline the link
                   ),
                 ),
